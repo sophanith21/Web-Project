@@ -47,7 +47,7 @@ nav{
 .link{
     display: flex;
     align-items: center;
-    gap: 44%;
+    gap: 22%;
 }
 .not-focus{
     display: inline-block;
@@ -282,24 +282,62 @@ section > div > a > img:active{
 footer {
     background-color: black;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.5vh 0;
 }
-  
-.footer-content ul {
+footer > div > nav{
+    display: grid;
+    grid-template-columns: repeat(3,31.33vw);
+    grid-template-rows: 1fr 1fr;
+}
+.footer-content nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0;
 }
   
-.footer-content ul li {
-display: inline-block;
-margin: 0 10px;
+.footer-content nav ul li, .footer-content a, .footer-content p {
+    margin: 0 0.8vw;
+    text-align: left;
 }
 
-.footer-content ul li a {
-text-decoration: none;
+.footer-content a{
+    text-decoration: none;
 }
 
-.footer-content ul li a:hover {
-text-decoration: underline;
+.footer-content a:hover {
+    text-decoration: underline;
+}
+.footer-content > p{
+    margin-left: 8vh;
+    margin-bottom: 3vh;
+}
+.footer-content >nav > a{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    align-items: flex-start;
+}
+.dummy-content img{
+    width: 5vw;
+    visibility: hidden ;
+}
+ul > .line, .follow > .line{
+    height: 2px;
+    width: 5vw;
+    margin: 2vh 0 2vh 0.7vw;
+    background-color: white;
+}
+.social{
+    display: flex;
+}
+.follow img{
+    border-radius: 50%;
+    width: 2vw;
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+}
+.follow img:hover{
+    filter: grayscale(0);
+}
+.follow a:active{
+    transform: scale(0.95);
 }

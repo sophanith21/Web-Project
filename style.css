@@ -35,7 +35,7 @@ nav{
 .link{
     display: flex;
     align-items: center;
-    gap: 44%;
+    gap: 22%;
 }
 .not-focus{
     display: inline-block;
@@ -134,7 +134,7 @@ picture::-webkit-scrollbar{
     display: none;
 }
 
-a > img{
+.featured-pic img{
     width: 18vw;
     height:60vh;
     object-fit: cover;
@@ -142,20 +142,20 @@ a > img{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
     transition: width 0.3s ease-in-out;
 }
-a > span{
+.featured-pic span{
     display: flex;
     justify-content: center; 
     font-weight: bold;
     padding: 1vh;
 }
-a > img:hover{
+.featured-pic img:hover{
     width: 22vw;
     height:67vh;
     object-fit: cover;
     border-radius: 20px;
     cursor: pointer;
 }
-a > img:active{
+.featured-pic img:active{
     transform: scale(0.95);
 }
 picture > div > a{
@@ -164,83 +164,62 @@ picture > div > a{
 footer {
     background-color: black;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.5vh 0;
 }
-  
-.footer-content ul {
+footer > div > nav{
+    display: grid;
+    grid-template-columns: repeat(3,31.33vw);
+    grid-template-rows: 1fr 1fr;
+}
+.footer-content nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0;
 }
   
-.footer-content ul li {
-    display: inline-block;
-    margin: 0 10px;
+.footer-content nav ul li, .footer-content a, .footer-content p {
+    margin: 0 0.8vw;
+    text-align: left;
 }
 
-.footer-content ul li a {
+.footer-content a{
     text-decoration: none;
 }
 
-.footer-content ul li a:hover {
+.footer-content a:hover {
     text-decoration: underline;
+}
+.footer-content > p{
+    margin-left: 8vh;
+    margin-bottom: 3vh;
+}
+.footer-content >nav > a{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    align-items: flex-start;
 }
 .dummy-content img{
     width: 5vw;
     visibility: hidden ;
 }
-
-/* Beach */
-/*
-position: absolute;
-width: 154px;
-height: 22px;
-left: 376px;
-top: 52px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 100%;
-/* or 32px 
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-opacity: 0.5;
-/* Beach */
-/*
-position: absolute;
-width: 154px;
-height: 22px;
-left: 376px;
-top: 52px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 100%;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-opacity: 0.5;
-/* Rectangle 24 
-
-position: absolute;
-width: 175px;
-height: 44px;
-left: 247px;
-top: 44px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: inset 0px -5px 1px #FFFFFF;
-border-radius: 5px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
-*/
+ul > .line, .follow > .line{
+    height: 2px;
+    width: 5vw;
+    margin: 2vh 0 2vh 0.7vw;
+    background-color: white;
+}
+.social{
+    display: flex;
+}
+.follow img{
+    border-radius: 50%;
+    width: 2vw;
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+}
+.follow img:hover{
+    filter: grayscale(0);
+}
+.follow a:active{
+    transform: scale(0.95);
+}
