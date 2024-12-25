@@ -25,7 +25,7 @@ svg{
 .hero{
     width: 100vw;
     height: 66vh;
-    background-image: url(images/angkor_wat_1200.jpg);
+    background-image: url(Image/angkor_wat_1200.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,16 +151,16 @@ label[for='searchbar']{
     }
 }
 #Mountain{
-    background-image: url(images/mountain.jpg);
+    background-image: url(Image/mountain.jpg);
 }
 #Temple{
-    background-image: url(images/koh-ker-pyramid-prang-1.jpg);
+    background-image: url(Image/koh-ker-pyramid-prang-1.jpg);
 }
 #Coast{
-    background-image: url(images/coast.jpg);
+    background-image: url(Image/coast.jpg);
 }
 #Museum{
-    background-image: url(images/cambodia-national-museum-3.jpg);
+    background-image: url(Image/cambodia-national-museum-3.jpg);
 }
 footer {
     background-color: black;
@@ -262,8 +262,7 @@ ul > .line, .follow > .line{
         align-items: flex-start;
     }
     .footer-content > p{
-        margin-left: 8vh;
-        margin-bottom: 3vh;
+        text-align: center;
     }
     .footer-content >nav > a{
         display: flex;

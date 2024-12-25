@@ -12,7 +12,7 @@ html{
 }
     /*for laptop is 1400px 900px but on edge h is 730px visible*/
 body{
-    background-image: url(../images/Prasat_Bayon_2014-scaled.jpg);
+    background-image: url(../Image/Prasat_Bayon_2014-scaled.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,13 +109,13 @@ svg{
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out; 
 }
 #Kohker{
-    background-image: url(../images/koh-ker-pyramid-prang-1.jpg);
+    background-image: url(../Image/koh-ker-pyramid-prang-1.jpg);
 }
 #Angkor{
-    background-image: url(../images/angkor\ wat\ temple\ tour.jpg);
+    background-image: url(../Image/angkor\ wat\ temple\ tour.jpg);
 }
 #Bayon{
-    background-image: url(../images/bayon.jpg);
+    background-image: url(../Image/bayon.jpg);
 }
 .images{
     display: flex;
@@ -152,7 +152,7 @@ svg{
 }
 .imagedisplay{
     width: 50%;
-    background-image: url(../images/preah-vihear.jpg);
+    background-image: url(../Image/preah-vihear.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

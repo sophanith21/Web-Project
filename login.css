@@ -130,7 +130,7 @@ body {
   }
   .image-section {
     flex: 1;
-    background-image: url('images/simon-wilkes-S297j2CsdlM-unsplash.jpg');
+    background-image: url('Image/simon-wilkes-S297j2CsdlM-unsplash.jpg');
     background-size: cover;
     background-position: center;
   }
