@@ -9,7 +9,7 @@ h1,p{
     margin: 0;
 }
 body.mountain{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Image/Background_mountain_updated.PNG');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/image/background_mountain_updated.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
