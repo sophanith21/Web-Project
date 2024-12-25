@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  .sign-up-section {
+    max-width: 960px;
+    flex: 1;
+    padding: 30px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .sign-up-section #logo-img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+  .sign-up-section h1 {
+    margin: 0;
+  }
+  
+  .sign-up-section form label {
+    display: block;
+    margin: 10px 0 5px;
+    color:#4A5568;
+    
+  }
+  a{
+    color: black;
+  }
+  p{
+    color:#4A5568;;
+  }
+  .sign-up-section form input {
+    width: 637px;
+    padding: 10px;
+    background-color: #e1e7ef;
+    color: #4A5568;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: 2px solid white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .sign-up-section form input:hover{
+    cursor: pointer;
+  }
+  
+  .sign-up-section form input:focus{
+    border-color: rgb(29, 29, 29); 
+    box-shadow: 0 0 5px black; 
+    outline: none;
+  }
+  .sign-up-section form .password-input {
+    display: flex;
+    align-items: center;
+  }
+  .sign-up-section form .password-input input {
+    flex: 1;
+  }
+  .sign-up-section form .password-input .toggle-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+
+  }
+  
+  ::placeholder{
+    color: #4A5568;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /* Styling for the checkbox */
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Styling for the "Forgot Password?" link */
+  .forgot-password {
+    color: black; /* Blue color */
+  }
+
+  .sign-up-section form .btn {
+    width: 660px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    margin: 10px 0;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  #or{
+    text-align: center;
+  }
+  .sign-up-section form .btn:active{
+    transform: scale(0.97);
+  }
+  
+  .sign-up-section form .btn.google {
+    background-color: #db4437;
+  }
+  .sign-up-section form .btn.google:active{
+    background-color: #9f2c22;
+  }
+  
+  .sign-up-section form .btn.facebook {
+    background-color: #4267B2;
+  }
+  .sign-up-section form .btn.facebook:active{
+    background-color: #263e6d;
+    
+  }
+  .image-section {
+    flex: 1;
+    background-image: url('images/simon-wilkes-S297j2CsdlM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+  }
