@@ -9,7 +9,7 @@ h1,p{
     margin: 0;
 }
 body.mountain{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Image/background_mountain.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Image/Background_mountain_updated.PNG');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -187,8 +187,7 @@ footer > div > nav{
     text-decoration: underline;
 }
 .footer-content > p{
-    margin-left: 8vh;
-    margin-bottom: 3vh;
+    text-align: center;
 }
 .footer-content >nav > a{
     display: flex;
@@ -263,24 +262,35 @@ ul > .line, .follow > .line{
     body.mountain{
         background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/Image/phone_background.jpg);
     }
+    body.coast{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/Image/phone_background_coast.png);
+    }
+    body>nav{
+        height: 10vh;
+    }
     .link{
-        gap: 30%;
+        gap: 22%;
+        overflow: scroll;
+        width: 70%;
     }
     .focus{
-        padding: 8%;
+        padding: 5%;
     }
     .link > a{
-        font-size: 1.2rem;
+        font-size: 3.2rem;
     }
     .sign-log{
         display: flex;
         flex-direction: column;
+        width: 20%;
+        height: 100%;
     }
     .login,.signup{
-        width: 80%;
-        height: 80%;
+        font-size: 3.2rem;
+        width: 100%;
         align-self: center;
     }
+    
     main{
         display: flex;
         flex-direction: column;
@@ -331,10 +341,6 @@ ul > .line, .follow > .line{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-    }
-    .footer-content > p{
-        margin-left: 8vh;
-        margin-bottom: 3vh;
     }
     .footer-content >nav > a{
         display: flex;
